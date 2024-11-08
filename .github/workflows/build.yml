@@ -21,6 +21,7 @@ jobs:
       - name: Install LaTeX and dependencies
         run: |
           sudo apt install -y \
+          latexmk \
           texlive \
           texlive-latex-extra \
           texlive-lang-italian
