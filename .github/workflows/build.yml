@@ -20,6 +20,7 @@ jobs:
 
       - name: Install LaTeX and dependencies
         run: |
+          sudo apt update \
           sudo apt install -y \
           latexmk \
           texlive \
